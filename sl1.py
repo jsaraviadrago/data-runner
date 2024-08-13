@@ -7,17 +7,25 @@ url_data = "https://raw.githubusercontent.com/jsaraviadrago/data-runner/main/Act
 
 data_runs = pd.read_csv(url_data)
 
-st.header("My webapp")
-x = st.slider("Select a value")
-st.write(x, "squared is", x * x)
+st.header("Mis carreras")
 
+st.write("Este es mi dashboard sobre mis carreras y las métricas que me interesan cuando corro")
+#x = st.slider("Select a value")
+#st.write(x, "squared is", x * x)
+
+
+st.header("Histórico de carreras y sus distancias")
 st.line_chart(data_runs,
               x = 'Date',
               y= 'Distance')
 
+st.header("Histórico de promedio de pulso")
 st.line_chart(data_runs,
               x = 'Date',
               y= 'Avg HR')
 
-#st.scatter_chart(chart_data)
+st.header("Relación entre promedio de pulsaciones y distancia")
+st.scatter_chart(data_runs,
+                 x = "Avg HR",
+                 y = "Distance")
 
