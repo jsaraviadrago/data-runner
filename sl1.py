@@ -15,3 +15,9 @@ st.line_chart(data_runs,
               x = 'Date',
               y= 'Distance')
 
+st.line_chart(data_runs,
+              x = 'Date',
+              y= 'Avg HR')
+
+#st.scatter_chart(chart_data)
+
