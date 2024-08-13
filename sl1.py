@@ -29,3 +29,16 @@ st.scatter_chart(data_runs,
                  x = "Avg HR",
                  y = "Distance")
 
+st.header("Relación entre promedio de pulsaciones y calorias")
+st.scatter_chart(data_runs,
+                 x = "Avg HR",
+                 y = "Calories")
+
+st.header("Relación entre cadencia y pulsaciones")
+st.scatter_chart(data_runs,
+                 x = "Avg Run Cadence",
+                 y = "Avg HR")
+
+
+
+
