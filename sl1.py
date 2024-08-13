@@ -7,9 +7,6 @@ url_data = "https://raw.githubusercontent.com/jsaraviadrago/data-runner/main/Act
 
 data_runs = pd.read_csv(url_data)
 
-#data_runs['Distance'] = pd.to_numeric(data_runs['Distance'])
-#data_runs['Date'] = pd.to_datetime(data_runs['Date'])
-
 st.header("My webapp")
 x = st.slider("Select a value")
 st.write(x, "squared is", x * x)
