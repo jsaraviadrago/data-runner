@@ -8,6 +8,8 @@ To start of with the web based application I used this link[[1]](#1) to open my 
 
 To make the line chart you can see me code or look for the page of streamlit[[2]](#2) and this[[3]](#3). 
 
+To make the scatter plot you can check my code or go into this website for some help[[4]](#4)
+
 ### References
 
 <a id="1">[1]</a> 
@@ -25,3 +27,7 @@ Streamlit
 [Built-in charts get a new look and parameters!](https://blog.streamlit.io/built-in-charts-get-a-new-look-and-parameters/)
 Streamlit
 
+<a id="4">[4]</a>
+Streamlit
+[Scatter plot](https://docs.streamlit.io/develop/api-reference/charts/st.scatter_chart)
+Streamlit
