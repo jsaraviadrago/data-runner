@@ -6,7 +6,7 @@ I wrangled some data to create multiple graphs for the web based application.
 
 To start of with the web based application I used this link[[1]](#1) to open my result in stremalit using Pycharm. 
 
-To make the line chart you can see me code or look for the page of streamlit[[2]](#2)
+To make the line chart you can see me code or look for the page of streamlit[[2]](#2) and this[[3]](#3). 
 
 ### References
 
