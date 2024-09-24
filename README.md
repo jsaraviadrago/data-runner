@@ -10,9 +10,12 @@ To run in Pycharm which is my case you can do the following:
 1. Open Terminal inside your repo
 
 2. Run the following
+
     2.1 Create a virtual environment (line 1)
-    2.2 Activate the environment
-    2.3 install streamlit in the environment
+
+    2.2 Activate the environment (line 2)
+
+    2.3 install streamlit in the environment (line 3)
 ```
 python -m venv venv
 source venv/bin/activate
@@ -21,6 +24,8 @@ pip install streamlit
 
 3. Inside the environment you hhave to run streamlit
 example: ```streamlit run sl1.py```
+
+__Note:__ you don't need to always create a venv, just once. 
 
 To make the line chart you can see me code or look for the page of streamlit[[2]](#2) and this[[3]](#3). 
 
